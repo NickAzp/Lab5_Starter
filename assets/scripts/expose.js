@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", init);
+
 function init() {
   
   const horn = document.getElementById("horn-select");
@@ -36,5 +38,3 @@ function init() {
     hornaudios.play();
   });
 }
-
-document.addEventListener("DOMContentLoaded", init);
